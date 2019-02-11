@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.6" method="upgrade">
+
+    <name>User Article</name>
+    <author>Apptha</author>
+    <creationDate>August 2012</creationDate>
+    <copyright>Copyright (C) 2012 Powered by Apptha</copyright>
+    <license>GNU http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <authorEmail>support@apptha.com</authorEmail>
+    <authorUrl>www.apptha.com</authorUrl>
+    <version>1.0</version>
+     <description>
+       <![CDATA[
+     <p style="float:left;"><img src="../components/com_userarticle/assets/images/userarticle.png" width="150" height="150" /></p>
+     <p style="margin:10px;">
+Finally a way to keep your joomla website as a article submission site, press release website etc. When you are trying to build an article submission website Allowing your website users to submit their articles can be a daunting task with joomla .So we have created this component to allow front end users to submit and manage their own articles which can be moderated by admin.
+
+    </p>
+       <br clear="all">
+       ]]>
+      </description>
+   
+    <subinstall>
+        <install type="module"  client="site"  name="mod_userarticle">
+            User Article
+        </install>
+    </subinstall>
+
+     <installfile>userarticleinstall.php</installfile>
+
+     <uninstallfile>userarticleuninstall.php</uninstallfile>>
+
+     <languages folder="languages/site">
+
+			<language tag="en-GB">en-GB.com_userarticle.ini</language>
+     </languages>
+
+        <files folder="site">
+            <filename>index.html</filename>
+            <filename>userarticle.php</filename>
+            <folder>views</folder>
+            <folder>models</folder>
+            <filename>controller.php</filename>
+            <folder>assets</folder>
+	</files>
+
+         <administration>
+                <menu>UserArticle</menu>
+	        <files folder="admin">
+			<filename>index.html</filename>
+                        <filename>userarticle.php</filename>
+                        <folder>views</folder>
+                        <folder>models</folder>
+                        <filename>controller.php</filename>
+		</files>
+	 <languages folder="languages/admin">
+
+
+			<language tag="en-GB">en-GB.com_userarticle.ini</language>
+                        <language tag="en-GB">en-GB.com_userarticle.sys.ini</language>
+	</languages>
+        </administration>
+      
+
+
+   
+     
+</install>

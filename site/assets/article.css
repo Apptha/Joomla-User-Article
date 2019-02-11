@@ -1,0 +1,113 @@
+
+/**
+ * @name          : User Article.
+ * @version       : 1.0
+ * @package       : apptha
+ * @since         : Joomla 1.7
+ * @subpackage    : User Article.
+ * @author        : Apptha - http://www.apptha.com
+ * @copyright     : Copyright (C) 2011 Powered by Apptha
+ * @license       : GNU/GPL http://www.gnu.org/licenses/gpl-3.0.html
+ * @abstract      : Users the ability to create, edit ,delete and publish Article.
+ * @Creation Date : August 17 2012
+ * @Modified Date : August 23 2012
+ **/
+
+
+.article_form a:hover, .article_form a:link , .article_form a:visited
+{
+    background: none !important;
+    color:#7BA428 !important;
+}
+.toggle-editor
+{
+    display: none;
+}
+
+tr, td, th {
+border: solid 1px #DDD !important;
+}
+
+#table_frontend_user_article_list strong{display: block;text-align: center;}
+#table_frontend_user_article_list a{display: block; text-align: left; padding-left: 10px; text-decoration: none !important;}
+#table_frontend_user_article_list a:hover{background: none !important; color: #7BA428 !important;}
+#table_frontend_user_article_list .imgfloat{overflow: hidden; width: 56px;}
+#table_frontend_user_article_list .imgfloat img{float: left; margin-right: 5px}
+#filter_form a{ text-decoration: none !important;}
+#filter_form a:hover{background: none; color: #7BA428; }
+.add_grid{text-decoration: none;}
+.add_grid:hover{color: #7BA428 !important;}
+.add_btn{background: url(images/icon-32-new.png) no-repeat;  text-decoration: none; height: 32px;color: #7BA428; display: block; padding-left:35px;line-height: 32px;}
+.cancel_btn{background: url(images/icon-32-cancel.png) no-repeat; width: 32px; height: 32px; display: block;}
+.save_btn{background: url(images/icon-32-apply.png) no-repeat; width: 32px; height: 32px; padding: 0; border:none; display: block; cursor: pointer;}
+
+.calendar
+{
+    vertical-align: top!important;
+}
+fieldset.field_article
+{
+    border: 1px solid #DDDDDD;
+    padding: 10px;
+}
+fieldset.field_article legend
+{
+    font-weight: bold;
+}
+
+.list-footer{ margin: 10px auto 0; display: inline-block;}
+.list-footer:after{clear: both}
+.list-footer .limit{
+    float: left;
+    height: 22px;
+    line-height: 22px;
+    margin: 0 10px;
+
+    color: #333;
+}
+.list-footer .limit select{ width: 50px; }
+.list-footer ul{
+    float: left;
+    margin: 0 !important;
+    padding: 0 0 0 6px !important;
+    list-style: none;
+    background: url(images/j_button2_left.png) no-repeat 0 0;
+}
+.list-footer ul li{
+    list-style: none;
+    float: left;
+    padding:0 3px !important;
+}
+.list-footer ul li:last-child{
+    background: url(images/j_button2_right_cap.png) no-repeat top right;
+    padding: 0 6px 0 0 !important;
+}
+.list-footer ul li a, .list-footer ul li span, .list-footer .counter{
+    color: #333;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+}
+.list-footer ul li a:hover{background: none !important; color: #0B55C4 !important;}
+
+.list-footer .counter{float: left; padding: 5px 0 0 10px}
+
+.icon-48-userarticle {
+    background-image: url("images/userarticleicon.png");
+
+}
+.article_content_edit label{float:none !important;}
+.field_article p label{  display: inline-block;   vertical-align: top;   width: 18%;   float: left;  }
+
+
+a.article_img_icon_edit{ float:left !important; border: none !important;padding: 0px !important;}
+a.article_img_icon_delete{ float:right !important; border: none !important;padding: 0px !important;}
+
+a.article_img_icon_edit img
+{
+    border:none !important;
+}
+a.article_img_icon_delete img
+{
+    border:none !important;
+}
